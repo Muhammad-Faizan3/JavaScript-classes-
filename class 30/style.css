@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(120deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main box */
+.todo-box {
+    background: white;
+    width: 350px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input field */
+#inp {
+    width: 65%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Add button */
+button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5a67d8;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #434190;
+    transform: scale(1.05);
+}
+
+/* Todo list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+/* Delete button inside list */
+li button {
+    background-color: #e53e3e;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+
+li button:hover {
+    background-color: #c53030;
+}
