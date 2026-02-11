@@ -22,6 +22,7 @@ let childList = parentDiv.childNodes;
 for (let i = 0; i < childList.length; i++) {
     if(childList[i].nodeType === 3) {
         console.log(childList[i]);
-        
+        childList[i].remove()       
     }
 }
+console.log(childList);
