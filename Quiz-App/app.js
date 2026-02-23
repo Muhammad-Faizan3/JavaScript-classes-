@@ -54,6 +54,10 @@ let startQuiz = () => {
     labelB.textContent = quizArray[index].B;
     labelC.textContent = quizArray[index].C;
     labelD.textContent = quizArray[index].D;
+
+    for( let i = 0; i < inp.length; i++) {
+      inp[i].checked = false;
+    }
     
   };
   showQuestion();
@@ -67,12 +71,10 @@ let startQuiz = () => {
             // console.log('inp[i]',inp[i])
             // console.log('inp[i].checked',inp[i].checked);
             console.log('inp[i].value',inp[i].value);
-            
-            inp[i].value = selectedOpt;
+          selectedOpt = inp[i].value;
 
         }
     };
-    index++;
 
     console.log('selectedOpt',selectedOpt);
     
@@ -81,11 +83,23 @@ let startQuiz = () => {
          score++;
         marks += 10;
      };
+    index++;
 
-     if(selectedOpt !== ''){
+     if(selectedOpt == ''){
        alert('plz select an option');
        return;
      };
+
+     if(index <quizArray.length ) {
+      showQuestion();
+     }else{
+      quest.innerHTML = `Quiz complete and score is ${score} / ${quizArray.length} and your marks are ${marks}`
+      for (let i = 0; i< inp.length; i++) {
+        inp[i].parentElement.style.display = 'none'
+      };
+      nextBtn.style.display = "none"
+     }
+
 
 
   })
