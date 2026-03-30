@@ -153,7 +153,7 @@ let lastName = "Hasan"
 
 
 
-let arr = [12, false, "string", 45, true, {name : "hasan"}]
+// let arr = [12, false, "string", 45, true, {name : "hasan"}]
 
 // arr[5].name = "shakoor"
 
@@ -161,5 +161,63 @@ let arr = [12, false, "string", 45, true, {name : "hasan"}]
 
 
 
-console.log(arr.slice(0,2))
+// console.log(arr.slice(0,2))
 // console.log(arr)
+
+
+
+
+
+// higher order methods || callback functions
+// splice, map, filter, find, findIndex, slice
+// for loop
+
+// let arr = ["hassan", "faizan", "Azfal", " saleem"];
+// console.log(arr, 'Bofore Splice');
+// console.log(arr.splice(0,1,'shayan'));
+// console.log(arr.slice(0,1));
+// console.log(arr,'After splice Array');
+
+
+// function foo (a) {
+//     console.log(a);
+// }
+
+// function abc (cb) {
+// cb(56)
+// }
+// abc(foo)
+
+// function result (sum) {
+// sum(40,40)
+// }
+// function sum (a,b) {
+//     console.log(a+b);
+    
+// }
+// result(sum)
+
+//forEach kuch nhi return kerta
+// map return krta hai 1 array
+//filter return krta hai 1 array
+
+// find return karta hai true condition jobh hogi pehli value
+
+let arr = [1,2,3,4,5,6];
+
+// let returnForEach = arr.forEach((item) => {
+//     console.log(item);
+// })
+// console.log(returnForEach);
+
+
+// let returnMap = arr.map((item) => item *2)
+// console.log(returnMap);
+
+// let filterItems = arr.filter((item) => item > 2)
+// console.log(filterItems);
+
+
+
+let findReturn = arr.find((item) => item === 4)
+console.log(findReturn)
