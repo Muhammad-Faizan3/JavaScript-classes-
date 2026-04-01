@@ -203,7 +203,7 @@ let lastName = "Hasan"
 
 // find return karta hai true condition jobh hogi pehli value
 
-let arr = [1,2,3,4,5,6];
+// let arr = [1,2,3,4,5,6];
 
 // let returnForEach = arr.forEach((item) => {
 //     console.log(item);
@@ -219,5 +219,45 @@ let arr = [1,2,3,4,5,6];
 
 
 
-let findReturn = arr.find((item) => item === 4)
-console.log(findReturn)
+// let findReturn = arr.find((item) => item === 4)
+// console.log(findReturn)
+
+// let arr = [12,'hassan',true];
+// let arr2 = [];
+// arr.forEach((item) => {
+//     console.log(item);
+//     arr2.push(item + 'kuch bi')
+    
+// })
+// console.log(arr2);
+
+
+
+// let mapReturn = arr.map(function (item) {
+//     return item + 'Kuch bi';
+// })
+
+// console.log(mapReturn);
+
+// let para = 'lorem ipsum dolar . lorem ipsum dolar';
+
+// console.log(para.replace(/dolar/g,'pakistan'));
+
+// let arr = ['50','asdfi','dsfv','8'];
+
+// let randomNum = Math.random(Math.random()*arr.length)
+// console.log(randomNum);
+
+// let num = '12.345';
+// console.log(parseInt(num));
+// console.log(parseFloat(num));
+
+
+let currentDate = new Date();
+console.log(currentDate.getTime());
+
+
+
+
+
+
