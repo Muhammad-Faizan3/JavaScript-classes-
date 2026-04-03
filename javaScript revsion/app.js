@@ -253,11 +253,61 @@ let lastName = "Hasan"
 // console.log(parseFloat(num));
 
 
-let currentDate = new Date();
-console.log(currentDate.getTime());
+// let currentDate = new Date();
+// console.log(currentDate.getTime());
+
+
+// let user = 'faizan';
+// console.log(user.charAt());
+
+
+
+// let arr = [1,2,3,4,5];
+
+// let bigNum = [];
+
+// for(let i = 0; i< arr.length; i++){
+//     // console.log(arr[i] > 2);
+
+//     if(arr[i] > 2){
+//         bigNum.push(arr[i])
+//     }    
+// }
+// console.log(bigNum);
+
+
+// let filteredItems = arr.filter((item) => item > 2 )
+// console.log(filteredItems);
 
 
 
 
+// let arr = [1,2,3,4,5];
+
+// let bigNum = [];
+
+// for(let i = 0; i < arr.length; i++) {
+//     if (arr[i] > 2) {
+//         bigNum.push(arr[i])
+//     }
+// }
+// console.log(bigNum);
 
 
+// let filteredItems = arr.filter((item) => item > 2)
+// console.log(filteredItems);
+
+// normal function 
+
+// function greet (num, num1) {
+//     console.log(num + num1);
+// }
+// greet (12,32)
+
+// arguement wahan hota hai jahan fn call kia jata hai
+
+// arow function 
+let arrowFn = (...arg) => {
+    return a    
+}
+console.log(arrowFn(12,43,56,78));
