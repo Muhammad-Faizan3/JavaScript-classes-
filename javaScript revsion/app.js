@@ -1,3 +1,4 @@
+// let myFunc = 'blue';;
 // let a = 12;
 // let b = 5;
 // console.log(a+ ++a - b--);
@@ -17,7 +18,7 @@
 // console.log(username)
 
 // temporal dead zone == > TDZ
-let username = "hasancoder66"
+// let username = "hasancoder66"
 
 
 
@@ -87,8 +88,8 @@ let username = "hasancoder66"
 
 
 
-let firstName = "Muhammad"
-let lastName = "Hasan"
+// let firstName = "Muhammad"
+// let lastName = "Hasan"
 
 // "", '', ``
 
@@ -306,8 +307,103 @@ let lastName = "Hasan"
 
 // arguement wahan hota hai jahan fn call kia jata hai
 
-// arow function 
-let arrowFn = (...arg) => {
-    return a    
-}
-console.log(arrowFn(12,43,56,78));
+// // arow function 
+// let arrowFn = (...arg) => {
+//     return a    
+// }
+// console.log(arrowFn(12,43,56,78));
+
+
+// hello()
+// function hello() {
+//     console.log('Hello world');
+    
+// }
+
+// hello()
+// var hello = () => {
+//     console.log('hello world');
+    
+// }
+
+// let newFunc = () => {
+//     let user = 'Saylani';
+// }
+// newFunc();
+// console.log(user);
+// console.log(myFunc);
+
+// let test = () => {
+//     let user = 1
+//     console.log('user first',user);
+// }
+// test();
+
+// let test2 = () => {
+//     let user = 2
+//     console.log('user Second', user);
+// }
+// test2();
+
+// let test3 = () => {
+//     let user = 3;
+//     console.log('user third',user);
+// }
+// test3();
+
+
+// switch case // 
+
+
+// let dayInWeek;
+// let today = new Date();
+// let days = today.getDay();
+// console.log(days);
+
+// if(days === 1) {
+//     dayInWeek = "Monday"
+// }else if (days === 2){
+//     dayInWeek = "Tuesday"
+// }else if (days === 3){
+//     dayInWeek = "Wedesday"
+// }else if (days === 4){
+//     dayInWeek = "Thurday"
+// }else if (days === 5){
+//     dayInWeek = "Friday"
+// }else if (days === 6){
+//     dayInWeek = "Saturday"
+// }else{
+//     dayInWeek = "sunday"
+// }
+
+
+
+// switch (dayInWeek) {
+//     case 'saturday':
+//         console.log('Its Holiday');
+//         break;
+//         case 'sunday':
+//             console.log('Its also holiday')
+//             break;
+//             case 'Monday':
+//             console.log('Its Monday')
+//             break;
+//             case 'Tuesday':
+//             console.log('Its Tuesday')
+//             break;
+//             case 'Wedesday':
+//             console.log('Its Wedesday')
+//             break;
+//             case 'Thurday':
+//             console.log('Its Thurday')
+//             break;
+//             case 'Firday':
+//             console.log('Its Friday')
+//             break;
+//         default:
+//             console.log('So sad its working day');
+//         break;
+// }
+
+
+
