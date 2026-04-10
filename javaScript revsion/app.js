@@ -405,5 +405,33 @@
 //         break;
 // }
 
+// while loop 
+
+// for(let i = 0; i <= 10; i++) {
+
+// }
+
+// let i = 0;
+
+// while(i <= 5) {
+//     alert(i);
+//     i++;
+    
+// }
+
+// do while loop
+
+// let i = 0;
+
+// do{
+//     alert(i);
+//     i++;
+// }
+// while(i <=5);
 
 
+function checkAddress(fieldId) {
+    if(document.getElementById(fieldId).value === "") {
+        alert('Email Address required.')
+    }
+}
