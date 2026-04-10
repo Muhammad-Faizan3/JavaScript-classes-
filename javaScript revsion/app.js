@@ -430,8 +430,39 @@
 // while(i <=5);
 
 
-function checkAddress(fieldId) {
-    if(document.getElementById(fieldId).value === "") {
-        alert('Email Address required.')
-    }
-}
+// function checkAddress(fieldId) {
+//     if(document.getElementById(fieldId).value === "") {
+//         alert('Email Address required.')
+//     }
+// }
+
+
+// OBJECT 
+
+// let obj = {
+//     name : 'Karachi'
+// }
+// obj.foodStreet = 'Burns Road'
+// console.log(obj);
+
+
+// let arr1 = [
+//     {
+//         name : 'Faizan',
+//         Work : 'Welfare',
+//         area : ['bahadurabad', 'Gulshan']
+//     },
+//     {
+//         name : 'Faizan2',
+//         Work : 'Welfare2',
+//         // area : ['bahadurabad', 'Gulshan']
+//     }
+// ];
+
+// let des = arr1.map((data,index) => {
+// return data.Work
+
+// })
+// console.log(des);
+
+
