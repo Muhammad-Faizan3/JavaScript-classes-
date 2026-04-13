@@ -466,3 +466,22 @@
 // console.log(des);
 
 
+function Plan(name, price, space, transfer, pages, discountMonths) {
+    this.name = name;
+    this.price = price;
+    this.space = space;
+    this.transfer = transfer;
+    this.pages = pages;
+    this.discountMonths = discountMonths;
+};
+// let Plan1 = new Plan('basic', 1000, 100, 1223, 10, 0.05)
+//     console.log(Plan1);
+
+// let Plan2 = new Plan('premium', 1500, 120, 1226, 10, 0.05)
+//     console.log(Plan2);
+
+
+// let today = new Date();
+// today.
+
+
