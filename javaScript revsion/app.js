@@ -466,14 +466,14 @@
 // console.log(des);
 
 
-function Plan(name, price, space, transfer, pages, discountMonths) {
-    this.name = name;
-    this.price = price;
-    this.space = space;
-    this.transfer = transfer;
-    this.pages = pages;
-    this.discountMonths = discountMonths;
-};
+// function Plan(name, price, space, transfer, pages, discountMonths) {
+//     this.name = name;
+//     this.price = price;
+//     this.space = space;
+//     this.transfer = transfer;
+//     this.pages = pages;
+//     this.discountMonths = discountMonths;
+// };
 // let Plan1 = new Plan('basic', 1000, 100, 1223, 10, 0.05)
 //     console.log(Plan1);
 
@@ -485,3 +485,38 @@ function Plan(name, price, space, transfer, pages, discountMonths) {
 // today.
 
 
+// Promise
+
+// new Promise((resolve, reject) => {
+//     let car = true;
+
+//     if(car){
+//     console.log('kaam hogaya');
+//     resolve()
+//     }else{
+//         console.log('kaam nhi hua');
+//         reject()
+        
+//     }
+// }).then((res) =>res)
+// .catch((err) => err)
+// .finally(() => console.log('finaL Chala'))
+
+// new Promise((resolve,reject) => {
+//     let user = false;
+//     user ? resolve('you can go') : reject('you cant')
+// })
+// .then((res) => console.log(res))
+// .catch((err) => console.log(err))
+// .finally(() => console.log('final'))
+
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+
+// let data = async () => {
+//     let myData = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+//     let parsed = await myData.json()
+//     console.log(parsed);
+    
+    
+// }
+// data()
