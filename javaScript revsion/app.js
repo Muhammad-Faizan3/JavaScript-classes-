@@ -520,3 +520,20 @@
     
 // }
 // data()
+
+// event loop
+// setTimeout
+// async await
+// web  apis
+
+let user = 'Faizan';
+
+setTimeout(() => {
+    console.log('set time out');
+},1000);
+new Promise((resolve,reject) => {
+    console.log('prom   ise chala');
+    resolve();
+});
+
+console.log('user ', user);
